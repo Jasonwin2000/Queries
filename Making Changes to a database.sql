@@ -1,25 +1,29 @@
 --Jason Nguyen
 --Murach's textbook
 
-select * from Customers -- here only to look if the code below has done it's thing
-insert into Customers(CustomerFirst,CustomerLast, CustAddr, CustCity, CustState,CustZip,CustPhone,Age,MiddleName)--New adjustment to table
+select * from Customers -- here is only to look if the code below has done it's thing
 
+--New adjustment to table
+insert into Customers(CustomerFirst,CustomerLast, CustAddr, CustCity, CustState,CustZip,CustPhone,Age,MiddleName)
 values('Jason','Nguyen','6437 Jeffrey Ct SE','Lacey','WA',98513, 3603590794,19,'j')
 
-insert into Customers(CustomerFirst,CustomerLast, CustAddr, CustCity, CustState,CustZip,CustPhone,Age,MiddleName)--New adjustment to table
-
+--New adjustment to table
+insert into Customers(CustomerFirst,CustomerLast, CustAddr, CustCity, CustState,CustZip,CustPhone,Age,MiddleName)
 values('Hien','Nguyen','6437 Jeffrey Ct SE','Lacey','WA',98513, 3608883700,53,'s')
 
-insert into Customers(CustomerFirst,CustomerLast, CustAddr, CustCity, CustState,CustZip,CustPhone,Age,MiddleName)--New adjustment to table
-
+--New adjustment to table
+insert into Customers(CustomerFirst,CustomerLast, CustAddr, CustCity, CustState,CustZip,CustPhone,Age,MiddleName)
 values('Trang','Nguyen','6437 Jeffrey Ct SE','Lacey','WA',98513, 3608883700,70,'h')
 
-Alter table Customers --made a new column called Middle Name
+--made a new column called 'Middle Name'
+Alter table Customers 
 add MiddleName character
 
-Alter table Customers --deletes the column called Middle Name
+--deletes the column called 'Middle Name'
+Alter table Customers 
 drop Column MiddleName
 
+--adds a new column called 'Age'
 alter table Customers
 add Age int
 
