@@ -1,11 +1,12 @@
 --Jason Nguyen
 --Murach's textbook
-select *
-from PaidInvoices join Invoices
-on PaidInvoices.InvoiceID = Invoices.InvoiceID; -- a simple innerjoin
 
+-- a simple innerjoin
+select * from PaidInvoices join Invoices
+on PaidInvoices.InvoiceID = Invoices.InvoiceID; 
 
- SELECT InvoiceNumber, LastTranDate, InvoiceTotal -- a innerjoin with restrictions where only showing the Invoices coming from CA
+-- a innerjoin with restrictions where only showing the Invoices coming from CA
+ SELECT InvoiceNumber, LastTranDate, InvoiceTotal 
    FROM Invoices JOIN Vendors
         ON Invoices.InvoiceID = Vendors.VendorID
    WHERE VendorState = 'CA'
