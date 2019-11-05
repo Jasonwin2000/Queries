@@ -1,8 +1,12 @@
 --Jason Nguyen
 --Murach's textbook
-SELECT InvoiceNumber,InvoiceId,  InvoiceTotal -- demonstrating how the where clause works in complex code
+
+ -- demonstrating how the where clause works in complex code
+SELECT InvoiceNumber,InvoiceId,  InvoiceTotal
    FROM Invoices
-   WHERE InvoiceTotal > --where invoicetotals is bigger than the avg in Invoicetotal from invoices.
+   
+   --where invoicetotals is bigger than the avg in Invoicetotal from invoices.
+   WHERE InvoiceTotal > 
        (SELECT AVG(InvoiceTotal)
         FROM Invoices)
    ORDER BY InvoiceTotal;
