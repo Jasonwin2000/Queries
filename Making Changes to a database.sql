@@ -22,3 +22,9 @@ drop Column MiddleName
 
 alter table Customers
 add Age int
+
+
+-- CustID|CustomerLast|CustomerFirst|CUstAddr|CustCity|CustState|CustZip|CustPhone|Age|MiddleName|
+--1101|Nguyen|Jason|confidentital|Lacey|WA|98513|Confidential|19|j|
+--1101|Nguyen|Hien|confidentital|Lacey|WA|98513|Confidential|61|j|
+--1101|Nguyen|Trang|confidentital|Lacey|WA|98513|Confidential|57|j|
