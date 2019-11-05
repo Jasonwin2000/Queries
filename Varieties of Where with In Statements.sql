@@ -1,11 +1,11 @@
 select * from Customers
-where CustState = 'WA'
+where CustState = 'WA' -- only prints out those who are in WA
 
 select * from Customers
-where CustID < 90
+where CustID < 90 -- prints out CustId there are less than 90.
 
 select * from Customers
-where not CustID < 90 
+where not CustID < 90  --vice versa
 
 
 select * from Customers 
