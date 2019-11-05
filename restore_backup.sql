@@ -1,3 +1,5 @@
+--Jason Nguyen
+--Murach's textbook
 use master
 --this whole procedure is to copy one database into a new one
 

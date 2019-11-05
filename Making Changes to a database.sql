@@ -1,3 +1,6 @@
+--Jason Nguyen
+--Murach's textbook
+
 select * from Customers -- here only to look if the code below has done it's thing
 insert into Customers(CustomerFirst,CustomerLast, CustAddr, CustCity, CustState,CustZip,CustPhone,Age,MiddleName)--New adjustment to table
 

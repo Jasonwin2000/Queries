@@ -1,3 +1,5 @@
+--Jason Nguyen
+--Murach's textbook
 select *
 from PaidInvoices join Invoices
 on PaidInvoices.InvoiceID = Invoices.InvoiceID; -- a simple innerjoin

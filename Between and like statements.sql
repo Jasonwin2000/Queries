@@ -1,3 +1,5 @@
+--Jason Nguyen
+--Murach's textbook
 select * from Customers
 where customerfirst like 'J%' -- prints those whose starts with the letter J 
 

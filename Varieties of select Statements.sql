@@ -1,3 +1,5 @@
+--Jason Nguyen
+--Murach's textbook
 select * from Customers -- displays everything within the database "Customers"
 
 select Distinct CustState from Customers -- only prints out CustStates as the column

@@ -1,3 +1,5 @@
+--Jason Nguyen
+--Murach's textbook
 select * from Customers
 where CustState = 'WA' -- only prints out those who are in WA
 

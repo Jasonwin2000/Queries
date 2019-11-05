@@ -1,3 +1,5 @@
+--Jason Nguyen
+--Murach's textbook
 /****** Script for SelectTopNRows command from SSMS  ****/
 --select * from Orders
 select b.OrderDate, b.ShippedDate, a.* from Customers a
