@@ -11,3 +11,9 @@ SELECT InvoiceNumber,InvoiceId,  InvoiceTotal
         FROM Invoices)
    ORDER BY InvoiceTotal;
 
+--Console
+/*
+InvoiceNUmber	InvoiceId	InvoiceTotal
+4553			4			250.00
+*/
+
